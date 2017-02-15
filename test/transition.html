@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    .enable{
+        width:100px;
+        height:100px;
+        background-color:#333 ;
+        -webkit-animation: flash 1s ease 3;
+        -moz-animation: flash 1s ease 3;
+        -ms-animation: flash 1s ease 3;
+        -o-animation: flash 1s ease 3;
+        animation: flash 1s ease 3;
+    }
+    /* animation */
+    @-webkit-keyframes flash {
+        50% { opacity: 0; }
+    }
+    @-moz-keyframes flash {
+        50% { opacity: 0; }
+    }
+    @-ms-keyframes flash {
+        50% { opacity: 0; }
+    }
+    @-o-keyframes flash {
+        50% { opacity: 0; }
+    }
+    @keyframes flash {
+        50% { opacity: 0; }
+    }
+
+</style>
+<div class="enable" id="anim">
+
+</div>
+<script>
+    var anim = document.getElementById("anim");
+    anim.addEventListener("animationstart", AnimationListener, false);
+    anim.addEventListener("animationiteration", AnimationListener, false);
+    anim.addEventListener("animationend", AnimationListener, false);
+    function AnimationListener(e){
+        console.log(e);
+    }
+</script>
+</body>
+</html>
