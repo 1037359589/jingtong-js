@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="vue.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <table>
+        <div id="com1">
+            <span>ahshss</span>
+
+        </div>
+    </table>
+    <com2></com2>
+    <com2></com2>
+    <com2></com2>
+    <child my-message="hello"></child>
+
+</div>
+<script>
+    var data={msg:100};
+    Vue.component("com1",{
+        template:"#com1"
+    });
+    Vue.component("com2",{
+        template:"<div><input type='text' v-model='msg'/><br/><child v-bind:my-message='msg'></child></div>",
+        data:function(){
+            return data;
+        }
+    });
+    Vue.component('child',{
+        props:['myMessage'],
+        template:"<p>{{myMessage}}</p>",
+
+    });
+    new Vue({
+        el:"#app"
+    })
+</script>
+</body>
+</html>
