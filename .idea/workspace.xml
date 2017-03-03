@@ -9,7 +9,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="820f15e7-e1b7-4e0f-b995-3287fee12f02" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/legoland/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/legoland/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/legoland/examples/listpage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/legoland/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/legoland/iconfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/legoland/legoland.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/legoland/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/legoland/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/pager/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/pager/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/pager/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/pager/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/pager/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/pager/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/dataTables.html" afterPath="$PROJECT_DIR$/test/dataTables.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-demo/demo1.html" afterPath="$PROJECT_DIR$/vue-demo/demo1.html" />
     </list>
     <ignored path="jingtong-js.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,25 +51,78 @@
       <file leaf-file-name="demo1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue-demo/demo1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="138">
+              <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+              <folding>
+                <marker date="1488532398414" expanded="true" signature="2872:3134" ph="..." />
+                <marker date="1488532398414" expanded="true" signature="2943:3122" ph="..." />
+                <marker date="1488532398414" expanded="true" signature="4317:4343" ph="..." />
+                <marker date="1488532398414" expanded="true" signature="4317:4359" ph="..." />
+                <marker date="1488532398414" expanded="true" signature="4317:4386" ph="..." />
+                <marker date="1488532398414" expanded="true" signature="4317:4399" ph="..." />
+                <marker date="1488532398414" expanded="true" signature="4317:4412" ph="..." />
+                <marker date="1488532398414" expanded="true" signature="4360:4386" ph="..." />
+                <marker date="1488532398414" expanded="true" signature="4588:4778" ph="..." />
+                <marker date="1488532398414" expanded="true" signature="4622:4645" ph="..." />
+                <marker date="1488532398414" expanded="true" signature="4622:4669" ph="..." />
+                <marker date="1488532398414" expanded="true" signature="4707:4772" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/pager/examples/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataTables.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/pager/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dataTables.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/dataTables.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="661" column="56" selection-start-line="661" selection-start-column="56" selection-end-line="661" selection-end-column="56" />
+            <state relative-caret-position="1449">
+              <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataTables.fixedColumns.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/js/dataTables.fixedColumns.min.js">
+      <file leaf-file-name="web-log.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/web-log.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web_log_test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/web_log_test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/a.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -62,11 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataTables.fixedHeader.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/js/dataTables.fixedHeader.min.js">
+      <file leaf-file-name="objects.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/objects.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="12121">
+              <caret line="527" column="39" selection-start-line="527" selection-start-column="39" selection-end-line="527" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -78,6 +147,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -111,8 +181,13 @@
         <option value="$PROJECT_DIR$/test/router_test.html" />
         <option value="$PROJECT_DIR$/test/transition.html" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/vue-demo/demo1.html" />
+        <option value="$PROJECT_DIR$/test/objects.txt" />
+        <option value="$PROJECT_DIR$/test/a.css" />
+        <option value="$PROJECT_DIR$/test/web-log.html" />
+        <option value="$PROJECT_DIR$/test/web_log_test.html" />
         <option value="$PROJECT_DIR$/test/dataTables.html" />
+        <option value="$PROJECT_DIR$/test/pager/index.js" />
+        <option value="$PROJECT_DIR$/vue-demo/demo1.html" />
       </list>
     </option>
   </component>
@@ -123,9 +198,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1680" />
-    <option name="height" value="1010" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -185,41 +261,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jingtong-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jingtong-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/HaoFang/lothar-xfcrm" />
+    <property name="last_opened_file_path" value="D:/HaoFang/lothar-hfth5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\jingtong-js\test" />
       <recent name="D:\jingtong-js\test\js" />
       <recent name="D:\jingtong-js\vue-demo" />
-      <recent name="D:\jingtong-js\test" />
       <recent name="D:\jingtong-js\中介者模式" />
     </key>
   </component>
@@ -304,34 +363,56 @@
       <workItem from="1487815299901" duration="5931000" />
       <workItem from="1488193748563" duration="176000" />
       <workItem from="1488246563459" duration="3038000" />
-      <workItem from="1488254191426" duration="6197000" />
+      <workItem from="1488254191426" duration="6238000" />
+      <workItem from="1488332303270" duration="16382000" />
+      <workItem from="1488415802913" duration="12715000" />
+      <workItem from="1488502614825" duration="2336000" />
+      <workItem from="1488529377157" duration="4028000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69464000" />
+    <option name="totallyTimeSpent" value="104966000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1680" height="1010" extended-state="1" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18026796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17852835" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -367,68 +448,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/list.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41331">
-          <caret line="1797" column="1" selection-start-line="1797" selection-start-column="1" selection-end-line="1797" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/tongjitu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/doc-example-bar-dataZoom-filterMode.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/a.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1486606001674" expanded="true" signature="993:1043" ph="..." />
-            <marker date="1486606001674" expanded="true" signature="993:1085" ph="..." />
-            <marker date="1486606001674" expanded="true" signature="1098:1119" ph="..." />
-            <marker date="1486606001674" expanded="true" signature="1098:1138" ph="..." />
-            <marker date="1486606001674" expanded="true" signature="1163:1184" ph="..." />
-            <marker date="1486606001674" expanded="true" signature="1163:1203" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/list.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41331">
-          <caret line="1797" column="1" selection-start-line="1797" selection-start-column="1" selection-end-line="1797" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/中介者模式/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/中介者模式/zhongjiemoshi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/中介者模式/formsMediator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -729,11 +748,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue-demo/demo1.html">
+    <entry file="file://$PROJECT_DIR$/test/js/dataTables.fixedColumns.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -741,11 +759,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/legoland/examples/listpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/dataTables.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/js/dataTables.fixedColumns.min.js">
+    <entry file="file://$PROJECT_DIR$/test/web-log.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/web_log_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/a.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -753,10 +801,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/dataTables.html">
+    <entry file="file://$PROJECT_DIR$/test/objects.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="661" column="56" selection-start-line="661" selection-start-column="56" selection-end-line="661" selection-end-column="56" />
+        <state relative-caret-position="12121">
+          <caret line="527" column="39" selection-start-line="527" selection-start-column="39" selection-end-line="527" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pager/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-demo/demo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+          <folding>
+            <marker date="1488532398414" expanded="true" signature="2872:3134" ph="..." />
+            <marker date="1488532398414" expanded="true" signature="2943:3122" ph="..." />
+            <marker date="1488532398414" expanded="true" signature="4317:4343" ph="..." />
+            <marker date="1488532398414" expanded="true" signature="4317:4359" ph="..." />
+            <marker date="1488532398414" expanded="true" signature="4317:4386" ph="..." />
+            <marker date="1488532398414" expanded="true" signature="4317:4399" ph="..." />
+            <marker date="1488532398414" expanded="true" signature="4317:4412" ph="..." />
+            <marker date="1488532398414" expanded="true" signature="4360:4386" ph="..." />
+            <marker date="1488532398414" expanded="true" signature="4588:4778" ph="..." />
+            <marker date="1488532398414" expanded="true" signature="4622:4645" ph="..." />
+            <marker date="1488532398414" expanded="true" signature="4622:4669" ph="..." />
+            <marker date="1488532398414" expanded="true" signature="4707:4772" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pager/examples/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

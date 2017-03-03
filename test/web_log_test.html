@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="a.css">
+    <link rel="stylesheet" href="b.css">
+    <title>Title</title>
+</head>
+<body>
+    <link rel="stylesheet" href="c.css">
+    <script src="js/dataTables.fixedColumns.js"></script>
+    <script>
+        var script=document.getElementsByClassName('script');
+//        script.setAttribute('src','js/dataTables.fixedColumns.js');
+//        script.setAttribute('type','text/javascript');
+//        document.appendChild(script);
+        script.onerror=function(){
+            console.log(script.readyState);
+        }
+    </script>
+</body>
+</html>

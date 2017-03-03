@@ -1,0 +1,17 @@
+{
+  "name": "legoland",
+  "desc": "适用于管理后台的前端css框架",
+  "version": "0.2.6",
+  "main": "dist/legoland.css",
+  "homepage": "https://github.com/feather-components/legoland",
+  "_release": "0.2.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.2.6",
+    "commit": "bff380945f0ec240bb25f8b1f3fa3ac588bce583"
+  },
+  "_source": "https://github.com/feather-components/legoland.git",
+  "_target": "^0.2.6",
+  "_originalSource": "feather-components/legoland",
+  "_direct": true
+}

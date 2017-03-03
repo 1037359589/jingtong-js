@@ -1,0 +1,19 @@
+{
+  "name": "pager",
+  "desc": "分页组件",
+  "dependencies": {
+    "jquery": "~1.12.0",
+    "class": "feather-components/class"
+  },
+  "homepage": "https://github.com/feather-components/pager",
+  "_release": "72b179e73d",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "72b179e73d9470753bdbf83b7b6c509ad0404e42"
+  },
+  "_source": "https://github.com/feather-components/pager.git",
+  "_target": "*",
+  "_originalSource": "feather-components/pager",
+  "_direct": true
+}

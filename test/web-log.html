@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./a.css" id="aCss">
+    <title>Title</title>
+</head>
+<body>
+<!--<img src="a.png" alt="">-->
+<!--<img src="b.png" alt="">-->
+<script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/dataTables.fixedColumns.js" id="ooo"></script>
+<script>
+//    function include_js(file) {
+//        var _doc = document.getElementsByTagName('head')[0];
+//        var js = document.createElement('script');
+//        js.setAttribute('type', 'text/javascript');
+//        js.setAttribute('src', file);
+//        _doc.appendChild(js);
+//        if (!/*@cc_on!@*/0) { //if not IE
+//            //Firefox2、Firefox3、Safari3.1+、Opera9.6+ support js.onload
+//            js.onload = function () {
+//                alert('Firefox2、Firefox3、Safari3.1+、Opera9.6+ support js.onload');
+//            }
+//        } else {
+//            //IE6、IE7 support js.onreadystatechange
+//            js.onreadystatechange = function () {
+//                if (js.readyState == 'loaded' || js.readyState == 'complete') {
+//                    alert('IE6、IE7 support js.onreadystatechange');
+//                }
+//            }
+//        }
+//        return false;
+//    }
+//    //execution function
+//    include_js($('#ooo').attr("src"));
+</script>
+
+<script>
+    function isCssLoaded(link) {
+        console.log(link.sheet.cssRules);
+        try {
+            if (link.sheet && link.sheet.cssRules.length > 0)
+                return true;
+            else if (link.styleSheet
+                    && link.styleSheet.cssText.length > 0)
+                return true;
+            else if (link.innerHTML
+                    && link.innerHTML.length > 0)
+                return true;
+        }
+
+        catch (ex) {
+
+            //FF下的判断跨域，也不行，路径错了还是抛这个异常,
+            //在发生此异常时，我们默认css加载成功
+            if (ex.name && ex.name == 'NS_ERROR_DOM_SECURITY_ERR')
+                return true;
+        }
+
+        /*如果加载失败，返回文件链接*/
+        return link.getAttribute('href');
+    }
+    var aCss=document.getElementById("aCss");
+    console.log(isCssLoaded(aCss));
+    aCss.onload=aCss.onreadystatechange=function(){
+        if(!this.readyState||this.readyState=='loaded'||this.readyState=='complete'){
+            alert('done');
+        }else{
+            alert(false);
+        }
+
+    }
+
+    function dynamicLoad(){
+        var _doc=document.getElementsByTagName('head')[0];
+        var script=document.createElement('script');
+        script.setAttribute('type','text/javascript');
+        script.setAttribute('src','//cdn.bootcss.com/jquery/3.1.1/jquery.min.js');
+        _doc.appendChild(script);
+        script.onload=script.onreadystatechange=function(){
+            if(!this.readyState||this.readyState=='loaded'||this.readyState=='complete'){
+                alert('done');
+            }
+            script.onload=script.onreadystatechange=null;
+        }
+    }
+    dynamicLoad();
+</script>
+<script>
+    var imgdefereds=[];
+    var js = document.createElement('script');
+    js.onreadystatechange = function (e) {
+        if(!this.readyState||this.readyState=='loaded'||this.readyState=='complete'){
+            console.log("done")
+        }else{
+            console.log("done")
+        }
+    };
+
+    $('#ooo').on("error",function () {
+        console.log(131231);
+    });
+    $('#ooo').each(function(){
+        var dfd=$.Deferred();
+        var $this=$(this);
+        $(this).bind('load',function(){
+            dfd.resolve("dadasd");
+        }).bind('error',function(){
+            //图片加载错误，加入错误处理
+            // dfd.resolve();
+            console.error($this.attr("src")+"没有被加载或者不存在");
+        });
+        if(this.complete) setTimeout(function(){
+            dfd.resolve("asdaadasdasd");
+        },1000);
+        imgdefereds.push(dfd);
+    });
+    $.when.apply(null,imgdefereds).done(function(o){
+        console.log(o)
+//        callback();
+    });
+
+//        window.addEventListener("error", function(msg,url,line){
+//            console.log(arguments);
+//            console.log(msg,url,line);
+//        });
+//
+//        var ooo=document.getElementById("ooo");
+//        ooo.onload = function() {
+//            console.log(ooo.onloadDone);
+//            if ( ! ooo.onloadDone ) {
+//                ooo.onloadDone = true;
+//            }
+//        };
+//
+//        ooo.onreadystatechange=function(e){
+//            console.log(ooo.readyState);
+//        };
+
+</script>
+</body>
+</html>
