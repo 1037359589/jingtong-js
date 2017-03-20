@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app"></div>
+<script src="vue.js"></script>
+<script src="vuex.js"></script>
+<script>
+    const INCREMENT = 'increment';
+
+    const store = new Vuex.Store({
+        state: {
+            count: 0,
+            count2:0,
+            todos: [
+                { id: 1, text: '...', done: true },
+                { id: 2, text: '...', done: false },
+                { id: 3, text: '...', done: true },
+            ]
+        },
+        mutations: {
+            [INCREMENT] (state,payload) {
+                state.count+=payload.count;
+            },
+            increment2(state,payload){
+                state.count2+=payload.count;
+            }
+        },
+        getters: {
+            doneTodos: state => {
+                return state.todos.filter(todo => todo.done)
+            },
+            doneTodosCount: (state, getters) => {
+                return getters.doneTodos.length
+            }
+        },
+        actions: {
+            async actionA({  dispatch,commit },payload) {
+                setTimeout(() => {
+                    console.log(1312123);
+                    commit('increment',payload)
+                }, 1000)
+            },
+            async actionB({ dispatch, commit },payload){
+                /*方法一*/
+                await dispatch('actionA',payload);
+                commit('increment2',payload);
+//                /*方法二*/
+//                return dispatch('actionA',payload).then(() => {
+//                    setTimeout(function () {
+//                        commit('increment2',payload)
+//                    },1000);
+//                })
+            }
+        }
+    });
+    console.log(store.getters.doneTodos,store.getters.doneTodosCount );
+
+    const Counter = {
+        template: `<div>{{ count }} ,{{count2}}</div>`,
+        computed: {
+            count () {
+                return store.state.count
+            },
+            count2(){
+                return store.state.count2
+            },
+            doneTodosCount () {
+                return this.$store.getters.doneTodosCount
+            }
+        },
+        created(){
+            console.log(this.doneTodosCount);
+            store.commit('increment',{count:10});
+            store.commit({
+                type:"increment2",
+                count:13,
+            });
+            store.dispatch('actionB', {
+                count: 10
+            });
+        },
+//        methods:{
+//            ...mapMutations([
+//                'increment' // 映射 this.increment() 为 this.$store.commit('increment')
+//            ]),
+//        }
+
+
+    };
+    const app = new Vue({
+        el: '#app',
+        // 把 store 对象提供给 “store” 选项，这可以把 store 的实例注入所有的子组件
+        store,
+        components: { Counter },
+        template: `
+                <div class="app">
+                  <counter></counter>
+                </div>
+              `,
+
+    })
+
+
+
+</script>
+</body>
+</html>
