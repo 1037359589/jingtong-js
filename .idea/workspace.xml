@@ -9,8 +9,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="820f15e7-e1b7-4e0f-b995-3287fee12f02" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/example/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/example/demo1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/example/treeData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/liger-common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/ligerTab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/ligerui-all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/ligerui-dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/ligerui-form.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/ligerui-grid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/ligerui-layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/ligerui-menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/ligerui-tab.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/ligerui-tree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/ligerui.all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jingtong-js.iws" />
@@ -37,7 +50,7 @@
       <file leaf-file-name="vuex.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vuex/vuex.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="949">
+            <state relative-caret-position="8625">
               <caret line="377" column="38" selection-start-line="377" selection-start-column="38" selection-end-line="377" selection-end-column="38" />
               <folding />
             </state>
@@ -47,11 +60,21 @@
       <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vuex/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="62" column="55" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
+            <state relative-caret-position="143">
+              <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
               <folding>
                 <marker date="1489997747134" expanded="true" signature="2855:2916" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datagrid/example/demo1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -163,34 +186,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jingtong-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jingtong-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vuex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jingtong-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jingtong-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -210,12 +205,15 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\jingtong-js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\jingtong-js" />
       <recent name="D:\jingtong-js\vuex" />
       <recent name="D:\jingtong-js\test" />
       <recent name="D:\jingtong-js\test\js" />
       <recent name="D:\jingtong-js\vue-demo" />
-      <recent name="D:\jingtong-js\中介者模式" />
     </key>
   </component>
   <component name="RunManager">
@@ -305,33 +303,37 @@
       <workItem from="1488502614825" duration="2336000" />
       <workItem from="1488529377157" duration="4028000" />
       <workItem from="1488848881765" duration="2677000" />
-      <workItem from="1489980209144" duration="9863000" />
+      <workItem from="1489980209144" duration="10701000" />
+      <workItem from="1490057645017" duration="1797000" />
+      <workItem from="1490083043200" duration="3790000" />
+      <workItem from="1490145034359" duration="2130000" />
+      <workItem from="1490233169817" duration="604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117506000" />
+    <option name="totallyTimeSpent" value="126665000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17852835" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17852835" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -386,13 +388,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/中介者模式/loggingMediator2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/中介者模式/a.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -683,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,7 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12121">
           <caret line="527" column="39" selection-start-line="527" selection-start-column="39" selection-end-line="527" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -715,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
           <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,20 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1104">
           <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-          <folding>
-            <marker date="1488532398414" expanded="true" signature="2872:3134" ph="..." />
-            <marker date="1488532398414" expanded="true" signature="2943:3122" ph="..." />
-            <marker date="1488532398414" expanded="true" signature="4317:4343" ph="..." />
-            <marker date="1488532398414" expanded="true" signature="4317:4359" ph="..." />
-            <marker date="1488532398414" expanded="true" signature="4317:4386" ph="..." />
-            <marker date="1488532398414" expanded="true" signature="4317:4399" ph="..." />
-            <marker date="1488532398414" expanded="true" signature="4317:4412" ph="..." />
-            <marker date="1488532398414" expanded="true" signature="4360:4386" ph="..." />
-            <marker date="1488532398414" expanded="true" signature="4588:4778" ph="..." />
-            <marker date="1488532398414" expanded="true" signature="4622:4645" ph="..." />
-            <marker date="1488532398414" expanded="true" signature="4622:4669" ph="..." />
-            <marker date="1488532398414" expanded="true" signature="4707:4772" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,21 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="11" column="101" selection-start-line="11" selection-start-column="101" selection-end-line="11" selection-end-column="101" />
-          <folding>
-            <marker date="1463742146000" expanded="true" signature="5852:5882" ph="..." />
-            <marker date="1463742146000" expanded="true" signature="5921:5954" ph="..." />
-            <marker date="1463742146000" expanded="true" signature="5997:6047" ph="..." />
-            <marker date="1463742146000" expanded="true" signature="6096:6146" ph="..." />
-            <marker date="1463742146000" expanded="true" signature="6187:6239" ph="..." />
-            <marker date="1463742146000" expanded="true" signature="6294:6344" ph="..." />
-            <marker date="1463742146000" expanded="true" signature="6396:6430" ph="..." />
-            <marker date="1463742146000" expanded="true" signature="6474:6507" ph="..." />
-            <marker date="1463742146000" expanded="true" signature="6564:6599" ph="..." />
-            <marker date="1463742146000" expanded="true" signature="6655:6705" ph="..." />
-            <marker date="1463742146000" expanded="true" signature="6747:6799" ph="..." />
-            <marker date="1463742146000" expanded="true" signature="6855:6888" ph="..." />
-            <marker date="1463742146000" expanded="true" signature="6945:6980" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -774,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,16 +747,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vuex/vuex.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="949">
+        <state relative-caret-position="8625">
           <caret line="377" column="38" selection-start-line="377" selection-start-column="38" selection-end-line="377" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagrid/example/demo1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vuex/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="62" column="55" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
+        <state relative-caret-position="143">
+          <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
           <folding>
             <marker date="1489997747134" expanded="true" signature="2855:2916" ph="..." />
           </folding>

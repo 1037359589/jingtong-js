@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function SuperType(){
+        this.property=true;
+    }
+    SuperType.prototype.getSuperValue=function (){
+        return this.property;
+    }
+
+    function SubType (){
+        this.subProperty=false;
+        console.log(arguments);
+//        Array.apply(this,arguments);
+
+//        let a = SuperType.apply(null,arguments)
+//        console.log(a,111);
+//        a.__proto__ = SubType.prototype
+//        a.constructor = SubType
+//     return a;
+
+    }
+    a=new SuperType();
+    SubType.prototype=Object.create(a);
+//    SubType.prototype.constructor = SuperType;
+//    SubType.prototype.constructor = SubType;
+
+    SubType.prototype.getSubValue=function (){
+        return  this.subProperty;
+    };
+
+    SubType.prototype.push=function (){
+        console.log(arguments);
+        return Array.prototype.push.apply(this,arguments);
+    }
+
+
+    var instance =new SubType();
+
+    console.log(instance.getSuperValue());
+
+
+
+
+
+
+
+
+    function FakeArray(){
+        let a = Array.apply(null,arguments)
+        console.log(a,111);
+        a.__proto__ = FakeArray.prototype
+        a.constructor = FakeArray
+        return a
+    }
+    original = Array.prototype
+    console.log(original,222);
+    FakeArray.prototype = Object.create(original);
+    FakeArray.prototype.constructor = FakeArray
+    FakeArray.prototype.push = function(){
+        console.log('苟利国家生死已')
+        original.push.apply(this,arguments)
+    };
+    var words = FakeArray()
+    words.push('岂','因','祸','福','避','趋','之')
+    console.log(words.join(""))
+
+</script>
+</body>
+</html>
