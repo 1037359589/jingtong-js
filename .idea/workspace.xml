@@ -8,24 +8,7 @@
     <bookmark url="file://$PROJECT_DIR$/中介者模式/zhongjiemoshi.js" line="37" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="820f15e7-e1b7-4e0f-b995-3287fee12f02" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/example/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/example/demo1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/example/treeData.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/liger-common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/ligerTab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/ligerui-all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/ligerui-dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/ligerui-form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/ligerui-grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/ligerui-layout.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/ligerui-menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/ligerui-tab.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/ligerui-tree.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid/ligerui.all.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="820f15e7-e1b7-4e0f-b995-3287fee12f02" name="Default" comment="" />
     <ignored path="jingtong-js.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -60,8 +43,8 @@
       <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vuex/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
+            <state relative-caret-position="1155">
+              <caret line="96" column="14" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
               <folding>
                 <marker date="1489997747134" expanded="true" signature="2855:2916" ph="..." />
               </folding>
@@ -168,6 +151,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -188,12 +173,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/HaoFang/lothar-hfth5" />
+    <property name="last_opened_file_path" value="D:/HaoFang/feather-ggjc-manage" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -308,17 +291,18 @@
       <workItem from="1490083043200" duration="3790000" />
       <workItem from="1490145034359" duration="2130000" />
       <workItem from="1490233169817" duration="604000" />
+      <workItem from="1492649664755" duration="1346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126665000" />
+    <option name="totallyTimeSpent" value="128011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17852835" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17852835" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -763,8 +747,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vuex/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
+        <state relative-caret-position="1155">
+          <caret line="96" column="14" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
           <folding>
             <marker date="1489997747134" expanded="true" signature="2855:2916" ph="..." />
           </folding>

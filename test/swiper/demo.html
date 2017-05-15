@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="swiper.css">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    *{
+        padding:0;
+        margin:0;
+    }
+    .img-lag{
+        position: fixed;
+        left:0;
+        top:0;
+        width:100%;
+        height:100%;
+        background-color: rgba(0,0,0,0.5);
+    }
+    .img-look{
+        width:100%;
+        margin-top:100px;
+        height:500px;
+        background-color: #f5f5f5;
+    }
+    .img-small{
+        position:absolute;
+        bottom:0;
+        left:0;
+        width:80%;
+        height:100px;
+        padding:0 10%;
+    }
+    .swiper-container2{
+        width:100%;
+        background-color: #f3f3f3;
+        overflow: hidden;
+    }
+    .swiper-slide{
+        line-height: 100px;
+        text-align: center;
+    }
+    .prev{
+        width:50px;
+        height:50px;
+        position: absolute;
+        left:0;
+        top:50%;
+        margin-top:-25px;
+        background-color: #666;
+        z-index:1;
+        cursor: pointer;
+    }
+    .next{
+        width:50px;
+        height:50px;
+        position: absolute;
+        right:0;
+        top:50%;
+        margin-top:-25px;
+        background-color: #666;
+        z-index:1;
+        cursor: pointer;
+    }
+    .slide-img{
+        position: relative;
+        width:500px;
+        height:500px;
+        margin:0 auto;
+        background:#f00;
+        /*transform: scale(0.6);*/
+    }
+    .slide-img img{
+        width:100%;
+        height:100px;
+        transform: scale(0.6);
+    }
+    .slide-do{
+        width:100%;
+        position: absolute;
+        bottom:0;
+        left:0;
+    }
+    .slide-do li{
+        list-style: none;
+        float: left;
+        width:25%;
+        /*height:30px;*/
+        /*line-height: 30px;*/
+        text-align: center;
+        cursor: pointer;
+        line-height: 50px;
+    }
+    .swiper-slide{
+        cursor: pointer;
+    }
+
+</style>
+<div class="img-lag">
+    <div style="position: relative">
+        <div class="img-look">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slide-img">
+                            <img src="" alt="slider1">
+                            <ul class="slide-do">
+                                <li class="scale-small">-</li>
+                                <li class="scale-big">+</li>
+                                <li class="rotate-one">正旋转</li>
+                                <li class="rotate-two">反旋转</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-img">
+                            <img src="" alt="slider2">
+                            <ul class="slide-do">
+                                <li class="scale-small">-</li>
+                                <li class="scale-big">+</li>
+                                <li class="rotate-one">正旋转</li>
+                                <li class="rotate-two">反旋转</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-img">
+                            <img src="" alt="slider3">
+                            <ul class="slide-do">
+                                <li class="scale-small">-</li>
+                                <li class="scale-big">+</li>
+                                <li class="rotate-one">正旋转</li>
+                                <li class="rotate-two">反旋转</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-img">
+                            <img src="" alt="slider4">
+                            <ul class="slide-do">
+                                <li class="scale-small">-</li>
+                                <li class="scale-big">+</li>
+                                <li class="rotate-one">正旋转</li>
+                                <li class="rotate-two">反旋转</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-img">
+                            <img src="" alt="slider5">
+                            <ul class="slide-do">
+                                <li class="scale-small">-</li>
+                                <li class="scale-big">+</li>
+                                <li class="rotate-one">正旋转</li>
+                                <li class="rotate-two">反旋转</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-img">
+                            <img src="" alt="slider6">
+                            <ul class="slide-do">
+                                <li class="scale-small">-</li>
+                                <li class="scale-big">+</li>
+                                <li class="rotate-one">正旋转</li>
+                                <li class="rotate-two">反旋转</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-img">
+                            <img src="" alt="slider7">
+                            <ul class="slide-do">
+                                <li class="scale-small">-</li>
+                                <li class="scale-big">+</li>
+                                <li class="rotate-one">正旋转</li>
+                                <li class="rotate-two">反旋转</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-img">
+                            <img src="" alt="slider8">
+                            <ul class="slide-do">
+                                <li class="scale-small">-</li>
+                                <li class="scale-big">+</li>
+                                <li class="rotate-one">正旋转</li>
+                                <li class="rotate-two">反旋转</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-img">
+                            <img src="" alt="slider9">
+                            <ul class="slide-do">
+                                <li class="scale-small">-</li>
+                                <li class="scale-big">+</li>
+                                <li class="rotate-one">正旋转</li>
+                                <li class="rotate-two">反旋转</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="prev" id="prev1"></div>
+            <div class="next" id="prev2"></div>
+        </div>
+    </div>
+    <div class="img-small">
+        <div class="swiper-container2">
+            <div class="swiper-wrapper" id="nav-slider">
+                <div class="swiper-slide">slider1</div>
+                <div class="swiper-slide">slider2</div>
+                <div class="swiper-slide">slider3</div>
+                <div class="swiper-slide">slider4</div>
+                <div class="swiper-slide">slider5</div>
+                <div class="swiper-slide">slider6</div>
+                <div class="swiper-slide">slider7</div>
+                <div class="swiper-slide">slider8</div>
+                <div class="swiper-slide">slider9</div>
+            </div>
+        </div>
+        <div class="prev" id="prev3"></div>
+        <div class="next" id="prev4"></div>
+    </div>
+
+</div>
+
+<script src="jquery.js"></script>
+<script src="swiper.js"></script>
+<script>
+
+    var $$={
+        prev1:$("#prev1"),
+        prev2:$("#prev2"),
+        prev3:$("#prev3"),
+        prev4:$("#prev4"),
+        navSlider:$("#nav-slider")
+    };
+
+    var index=0;
+
+    var cssArr=[];
+
+
+
+    var mySwiper1 = new Swiper('.swiper-container', {
+        preventClicks : false,
+//        allowSwipeToNext:false,
+//        allowSwipeToPrev:false,
+        touchRatio : 0.5,
+        shortSwipes : false,
+        onSlideChangeEnd: function(swiper){
+            mySwiper2.slideTo(swiper.activeIndex, 300, false);
+            /*下面图片处理，增加选中class*/
+        }
+    });
+
+    var mySwiper2 = new Swiper('.swiper-container2', {
+        slidesPerView : 4,
+        slidesPerGroup : 2,
+        slideToClickedSlide:true,
+    });
+
+    initArr();
+    addEvent();
+
+    function initArr(){
+        $$.navSlider.find(".swiper-slide").each(function (k,d){
+           cssArr.push({scale:"0.6",rotate:0})
+        })
+    }
+
+    function addEvent(){
+        $$.prev1.on('click',toPrevOne);
+        $$.prev2.on('click',toNextOne);
+        $$.prev3.on('click',toPrevTwo);
+        $$.prev4.on('click',toNextTwo);
+
+        $$.navSlider.find(".swiper-slide").each(function(k,d){
+            $(d).on("click",function(){
+                mySwiper1.slideTo(k, 0, false);
+                /*这里做图片处理，增加选中class*/
+            })
+        });
+
+
+        $(".scale-small").each(function (k,d){
+            $(d).on("click",function(){
+                cssArr[k].scale=parseFloat(cssArr[k].scale)-0.1;
+                console.log(cssArr[k].scale);
+                if(parseFloat(cssArr[k].scale)<0.3){
+                    cssArr[k].scale=parseFloat(cssArr[k].scale)+0.1;
+                    return;
+                }
+                $(d).parents(".slide-img").find("img").css({transform:"scale("+cssArr[k].scale+") rotate("+cssArr[k].rotate+"deg)"})
+            })
+        });
+
+        $(".scale-big").each(function (k,d){
+            $(d).on("click",function(){
+                cssArr[k].scale=parseFloat(cssArr[k].scale)+0.1;
+                console.log(cssArr[k].scale);
+                if(parseFloat(cssArr[k].scale)>1){
+                    cssArr[k].scale=parseFloat(cssArr[k].scale)-0.1;
+                    return;
+                }
+                $(d).parents(".slide-img").find("img").css({transform:"scale("+cssArr[k].scale+") rotate("+cssArr[k].rotate+"deg)"})
+            })
+        });
+
+        $(".rotate-one").each(function (k,d){
+            $(d).on("click",function(){
+                cssArr[k].rotate=parseInt(cssArr[k].rotate)+90;
+                if(parseInt(cssArr[k].rotate)>360){
+                    cssArr[k].rotate=parseInt(cssArr[k].rotate)-90;
+                    return;
+                }
+                $(d).parents(".slide-img").find("img").css({transform:"scale("+cssArr[k].scale+") rotate("+cssArr[k].rotate+"deg)"})
+            })
+        });
+
+        $(".rotate-two").each(function (k,d){
+            $(d).on("click",function(){
+                cssArr[k].rotate=parseInt(cssArr[k].rotate)-90;
+                if(parseInt(cssArr[k].rotate)<0){
+                    cssArr[k].rotate=parseInt(cssArr[k].rotate)+90;
+                    return;
+                }
+                $(d).parents(".slide-img").find("img").css({transform:"scale("+cssArr[k].scale+") rotate("+cssArr[k].rotate+"deg)"})
+            })
+        });
+
+    }
+
+    function toNextOne(){
+        mySwiper1.slideNext();
+    }
+    function toNextTwo(){
+        mySwiper2.slideNext();
+    }
+    function toPrevOne(){
+        mySwiper1.slidePrev();
+    }
+    function toPrevTwo(){
+        mySwiper2.slidePrev();
+    }
+
+
+
+
+</script>
+
+</body>
+</html>

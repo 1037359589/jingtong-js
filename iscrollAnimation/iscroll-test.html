@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    #parent{
+        position: absolute;
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        overflow: hidden;
+    }
+    #content{
+        position: absolute;
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+    }
+    #list{
+        height:auto;
+        width:100%;
+    }
+</style>
+<div id="parent">
+    <div id="content">
+        <ul id='list'>
+
+        </ul>
+    </div>
+
+</div>
+<script>
+    var parent = document.getElementById('parent');
+    var content = document.getElementById('content');
+    var list = document.getElementById('list');
+    var htm="";
+    var startY=0,moveY=0,endY=0,moveDir=0,startTime=0,moveTime,endTime;
+    for(var i=0;i<100;i++){
+        htm+="<li>"+i+"</li>";
+    }
+    list.innerHTML=htm;
+    var transY=0;
+    content.addEventListener("touchstart",function(e){
+//        console.log(e.touches[0].pageY);
+        startTime = e.timeStamp || Date.now();
+
+        startY=e.touches[0].pageY;
+    });
+
+    content.addEventListener("touchmove",function(e){
+        var ey=e.touches[0].pageY;
+        var moveY=ey-startY;
+        transY+=moveY;
+        list.style.transform="translate(0,"+(transY*0.1)+"px)";
+
+
+    });
+
+    content.addEventListener("touchend",function(e){
+
+//        endY=e.changedTouches[0].pageY;
+//        var S=endY-startY;
+//        list.style.transform="translate(0,"+S+"px)";
+
+        endTime = e.timeStamp || Date.now();
+
+//        v=(endY - startY) / (endTime - startTime);
+
+
+
+
+    });
+
+
+</script>
+
+
+</body>
+</html>
